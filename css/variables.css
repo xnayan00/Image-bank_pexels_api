@@ -1,0 +1,13 @@
+:root {
+    /*****   colors   *****/
+    --primary: #1d3557;
+    --primary-light: #457b9d;
+    --secondary: #e63946;
+    --gray: #f1faee;
+    --light-blue: #a8dadc;
+    --white: #fff;
+
+    /*****   elevations   *****/
+    --header-elevation: 0 3px 10px rgba(0, 0, 0, 0.2);
+    --elevation1: 0 0 20px rgba(0, 0, 0, 0.5);
+}
