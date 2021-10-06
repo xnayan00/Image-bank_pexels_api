@@ -1,0 +1,20 @@
+/*****   container   *****/
+.l-container {
+    margin: 0 auto;
+    max-width: 80%;
+    width: 80%;
+}
+.l-header {
+    background-color: var(--white);
+    box-shadow: var(--header-elevation);
+    padding: 10px 0;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+.l-card-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 100px;
+}
