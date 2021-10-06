@@ -1,0 +1,14 @@
+/*****   reset margin & padding   *****/
+html, body, figure {
+    margin: 0;
+    padding: 0;
+}
+/*****   set default typography   *****/
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/*****   remove default outline from inputs   *****/
+input {
+    border: 0;
+    outline: none;
+}
