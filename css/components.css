@@ -52,3 +52,20 @@
     margin: 0 5px;
     padding: 10px 20px;
 }
+.c-button--primary {
+    background: var(--primary);
+    color: var(--white);
+    transition: all 0.2s;
+}
+.c-button--primary:hover {
+    background: var(--primary-light);
+}
+.c-button--disabled {
+    background: var(--darken-gray);
+    color: var(--dark-gray);
+}
+.c-button--disabled:hover {
+    background: var(--darken-gray);
+    color: var(--dark-gray);
+    cursor: not-allowed;
+}
