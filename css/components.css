@@ -30,17 +30,25 @@
     transition: background 0.2s;
     width: 100%;
 }
-.c-image-card {
+/*****   gallery section   *****/
+.c-gallery-image {
     flex-basis: 30%;
     margin: 10px;
     min-width: 200px;
     transition: all 0.2s;
 }
-.c-image-card:hover {
+.c-gallery-image:hover {
     cursor: pointer;
     opacity: 0.6;
 }
-.c-image-card img {
+.c-gallery-image img {
     border-radius: 20px;
     width: 100%;
+}
+/*****   buttons   *****/
+.c-button {
+    background: #ccc;
+    border-radius: 5px;
+    margin: 0 5px;
+    padding: 10px 20px;
 }
