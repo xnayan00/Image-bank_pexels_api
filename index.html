@@ -19,7 +19,7 @@
                 </figure>
             </a>
             <div class="c-nav__search">
-                <input class="c-input" type="text" name="search" id="search">
+                <input onkeyup="getPhotos(this.value, '')" class="c-input" type="text" name="search" id="search" placeholder="Buscar imagens">
             </div>
             <div class="c-nav__menu">
                 <a class="c-nav__link" href="#"><i class="far fa-bell fa-2x"></i></a>
@@ -28,9 +28,12 @@
         </nav>
     </header>
     <main class="l-container">
-        <section id="imgCardContent" class="l-card-grid">
-            <h1 class="t-title">Explore</h1>
-            
+        <section id="imgCardContent" class="l-gallery-grid">
+            <!-- / -->
+        </section>
+        <section class="l-gallery-grid">
+            <button id="galleryButton" class="c-button" onclick="getPhotos('', 'prev')">previous</button>
+            <button id="galleryButton" class="c-button" onclick="getPhotos('', 'next')">next</button>
         </section>
     </main>
 </body>
